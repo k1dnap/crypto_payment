@@ -33,7 +33,7 @@ description of the class
 - complete tests // check the blockchair api by user
 <!-- - check the difference in time between the blockchair and the local time? // UTC everywhere -->
 <!-- - gitnoire -->
-- deploy
+<!-- - deploy -->
 - cch.syncWalletAndActiveTransactions # update last checked time put it in the end of function, it's in the beginning for now due it'll prevent the script from checking the wallet twice at the same time
 - if the 2 transactions from the same wallet are called at the same time, second one need to wait till the first call will be finished, then check if the transaction status
 - add some temp and some limits to it(1000 records for example) to it, so it'll reduce the amount of database calls and increase perfomance in total
